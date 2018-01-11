@@ -61,5 +61,6 @@ conn.close()
 
 
 
-#Pour voir les tables dans pgAdmin : public, tables, 
+# Pour voir les tables dans pgAdmin : public, tables
+# Pour tester directement du code SQL dans pgAdmin : Tool, Query tool, puis le petit éclair !
 
