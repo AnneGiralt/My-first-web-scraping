@@ -32,7 +32,7 @@ def ecrire_table(nom_table, curseur):
 		data = get_data()
 		curseur.execute("INSERT INTO Nombre_followers (Followers, Date_prelevement) VALUES ({}, '{}')".format(data[0], data[1]))
 		time.sleep(60)
-	conn.commit()
+		conn.commit()
 	pass
 
 

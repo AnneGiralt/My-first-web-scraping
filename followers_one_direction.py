@@ -30,7 +30,8 @@ def ecrire_table(nom_table, curseur):
 		data = get_data()
 		curseur.execute("INSERT INTO Nombre_followers (Followers, Date_prelevement) VALUES ({}, '{}')".format(data[0], data[1]))
 		time.sleep(5)
-	conn.commit()
+		conn.commit()
+	
 	pass
 
 
@@ -62,5 +63,5 @@ conn.close()
 
 
 # Pour voir les tables dans pgAdmin : public, tables
-# Pour tester directement du code SQL dans pgAdmin : Tool, Query tool, puis le petit éclair !
+# Pour tester directement du code SQL dans pgAdmin : Tool, Query tool, puis le petit éclair ! 
 
